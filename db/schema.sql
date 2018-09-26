@@ -31,9 +31,15 @@ description
 		Antique Copper
 		Many other custom platings are available"
 
-xtra images
+--xtra images
 id0
 id1
 id2
 id3
+
+
+--linking img to item
+let the user input the unique name that is the same as the img name.
+	The additional images would have a number value next to the unique name so it is easily selected.
+
 */ 
