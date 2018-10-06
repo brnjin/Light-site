@@ -21,10 +21,19 @@ class NavBar extends React.Component {
 					  </Navbar.Form>
 				    <Nav pullRight>
 				      <NavItem eventKey={1} href="#">
-				        Link
+				        CHANDELIERS
 				      </NavItem>
 				      <NavItem eventKey={2} href="#">
-				        Link
+				        PENDANTS
+				      </NavItem>
+				      <NavItem eventKey={2} href="#">
+				        SCONCES
+				      </NavItem>
+				      <NavItem eventKey={2} href="#">
+				        TABLE LAMPS
+				      </NavItem>
+				      <NavItem eventKey={2} href="#">
+				        FLOOR LAMPS
 				      </NavItem>
 				      {/*<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
 				        <MenuItem eventKey={3.1}>Action</MenuItem>
