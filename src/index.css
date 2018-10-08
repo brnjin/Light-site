@@ -6,6 +6,7 @@ body {
 
 .headers { 
 	font-family: Helvetica, sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
 	margin-left: 105px;
+	margin-bottom: 25px;
  }
