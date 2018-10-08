@@ -8,6 +8,7 @@ class NavBar extends React.Component {
 				<Navbar inverse collapseOnSelect>
 				  <Navbar.Header>
 				    <Navbar.Brand>
+
 				      <a href="#brand">Light Site</a>
 				    </Navbar.Brand>
 				    <Navbar.Toggle />
@@ -49,6 +50,7 @@ class NavBar extends React.Component {
 				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
 				      </NavDropdown>
 				      <NavDropdown eventKey={3} title="FLOOR LAMPS" id="basic-nav-dropdown">
+
 				        <MenuItem eventKey={3.1}>Action</MenuItem>
 				        <MenuItem eventKey={3.2}>Another action</MenuItem>
 				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
@@ -57,6 +59,11 @@ class NavBar extends React.Component {
 				      </NavDropdown>
 				    </Nav>
 				    {/*<Nav pullRight>
+
+				      </NavDropdown>
+				    </Nav>
+				    <Nav pullRight>
+
 				      <NavItem eventKey={1} href="#">
 				        Link Right
 				      </NavItem>
