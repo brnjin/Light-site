@@ -20,28 +20,41 @@ class NavBar extends React.Component {
 					      <Button type="submit">Submit</Button>
 					  </Navbar.Form>
 				    <Nav pullRight>
-				      <NavItem eventKey={1} href="#">
-				        CHANDELIERS
-				      </NavItem>
-				      <NavItem eventKey={2} href="#">
-				        PENDANTS
-				      </NavItem>
-				      <NavItem eventKey={2} href="#">
-				        SCONCES
-				      </NavItem>
-				      <NavItem eventKey={2} href="#">
-				        TABLE LAMPS
-				      </NavItem>
-				      <NavItem eventKey={2} href="#">
-				        FLOOR LAMPS
-				      </NavItem>
-				      {/*<NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
+				      <NavDropdown eventKey={3} title="CHANDELIERS" id="basic-nav-dropdown">
 				        <MenuItem eventKey={3.1}>Action</MenuItem>
 				        <MenuItem eventKey={3.2}>Another action</MenuItem>
 				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
-				        <MenuItem divider />
-				        <MenuItem eventKey={3.3}>Separated link</MenuItem>
-				      </NavDropdown>*/}
+				        {/*<MenuItem divider />
+				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+				      </NavDropdown>
+				      <NavDropdown eventKey={3} title="PENDANTS" id="basic-nav-dropdown">
+				        <MenuItem eventKey={3.1}>Action</MenuItem>
+				        <MenuItem eventKey={3.2}>Another action</MenuItem>
+				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
+				        {/*<MenuItem divider />
+				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+				      </NavDropdown>
+				      <NavDropdown eventKey={3} title="SCONCES" id="basic-nav-dropdown">
+				        <MenuItem eventKey={3.1}>Action</MenuItem>
+				        <MenuItem eventKey={3.2}>Another action</MenuItem>
+				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
+				        {/*<MenuItem divider />
+				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+				      </NavDropdown>
+				      <NavDropdown eventKey={3} title="TABLE LAMPS" id="basic-nav-dropdown">
+				        <MenuItem eventKey={3.1}>Action</MenuItem>
+				        <MenuItem eventKey={3.2}>Another action</MenuItem>
+				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
+				        {/*<MenuItem divider />
+				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+				      </NavDropdown>
+				      <NavDropdown eventKey={3} title="FLOOR LAMPS" id="basic-nav-dropdown">
+				        <MenuItem eventKey={3.1}>Action</MenuItem>
+				        <MenuItem eventKey={3.2}>Another action</MenuItem>
+				        <MenuItem eventKey={3.3}>Something else here</MenuItem>
+				        {/*<MenuItem divider />
+				        <MenuItem eventKey={3.3}>Separated link</MenuItem>*/}
+				      </NavDropdown>
 				    </Nav>
 				    {/*<Nav pullRight>
 				      <NavItem eventKey={1} href="#">
