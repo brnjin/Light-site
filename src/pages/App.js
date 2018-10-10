@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import NavBar from './components/NavBar';
-import CarouselPic from './components/CarouselPic';
-import ItemList from './pages/ItemList';
+import NavBar from '../components/NavBar';
+import CarouselPic from '../components/CarouselPic';
+import ItemList from './ItemList';
 
 class App extends Component {
   render() {
